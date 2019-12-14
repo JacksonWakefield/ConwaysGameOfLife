@@ -17,7 +17,7 @@ class GridWindow:
     
     def __init__(self, _cell_size, _cell_num):
         #weird way to make something accessable to a different class, but it works 
-        #just fine python so
+        #just fine in python so
         import graphics
         self.graphics = graphics
         
