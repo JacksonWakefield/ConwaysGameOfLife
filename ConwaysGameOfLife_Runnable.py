@@ -1,7 +1,15 @@
-import numpy as np
-from WindowManager import GridWindow
-import threading
-import keyboard
+try:
+    import numpy as np
+    from WindowManager import GridWindow
+    import threading
+    import keyboard
+except:
+    print("""In order to run this code, you require the following packages (make sure they are all installed!):
+          numpy
+          WindowManager
+          threading
+          keyboard
+          """)
 
 """Let's write an algorithm!
 
